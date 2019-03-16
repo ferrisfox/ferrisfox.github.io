@@ -1,3 +1,21 @@
-body { 
-  background-color: black
+#card {
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  line-height: 0.9em;
+
+  width: 18em;
+  height: 12em;
+  /*border-radius: 1.5em;*/
+
+  margin: auto;
+  padding: 2em;
+  padding-top: 0.1em;
 }
+
+#card h1 #first { color: #ff9900; }
+
+#card h1 #last { color: #648de0; }
+
+#card p span { font-family: Consolas, monaco, monospace; }
