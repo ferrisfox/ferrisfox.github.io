@@ -5,17 +5,43 @@
   font-weight: bold;
   line-height: 0.9em;
 
-  width: 18em;
-  height: 12em;
-  /*border-radius: 1.5em;*/
+  width: 17.2em;
+  height: 11.2em;
+  border-radius: 1.1em;
 
   margin: auto;
-  padding: 2em;
-  padding-top: 0.1em;
+  padding: 0.8em;
+}
+
+#card h1 { 
+  font-size: 1.8em;
+  line-height: 1.2em;
+  height: 1em;
+  margin: 0em;
 }
 
 #card h1 #first { color: #ff9900; }
 
 #card h1 #last { color: #648de0; }
 
-#card p span { font-family: Consolas, monaco, monospace; }
+#card h1 img {
+  height: 2rem;
+  padding: -16.66%; 
+  float: right;
+}
+
+#card b { font-size: 0.9em; }
+
+#card b span { 
+  font-family: Consolas, monaco, monospace;
+  font-size:  1.042em;
+}
+
+#card img {
+  height: 5em;
+  float: right;
+}
+
+#card #info {
+  font-size: 0.6rem;
+}
