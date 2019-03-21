@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 18px; /* this scales the entire card*/
   font-weight: bold;
   line-height: 0.9em;
 
@@ -25,7 +26,7 @@
 #card h1 #last { color: #648de0; }
 
 #card h1 img {
-  height: 2rem;
+  height: 1.1em;
   padding: -16.66%; 
   float: right;
 }
@@ -42,6 +43,11 @@
   float: right;
 }
 
-#card #info {
-  font-size: 0.6rem;
+#card_info {
+  font-size: 0.6em;
+}
+
+#card_info a {
+  color: white;
+  text-decoration: none; 
 }
